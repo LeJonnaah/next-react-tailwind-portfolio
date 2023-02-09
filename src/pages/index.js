@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image  from 'next/image'  
-import deved from '../../public/dev-ed-wave.png'
+import githubPic from '../../public/github-pc.png'
 import NavBar from '@/components/NavBar'
 import PresentationSection from '@/components/PresentationSection'
 import ButtonsSection from '@/components/ButtonsSection'
@@ -24,9 +24,9 @@ export default function Home() {
           <section>
             <PresentationSection />
             <ButtonsSection />
-            <div className='mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96'>
-              <Image src={deved} alt="deved" fill  objectFit="cover"/>
-            </div>
+              <div className='mx-auto rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96'>
+                <Image src={githubPic} alt="github profile picture" fill/>
+              </div>
           </section>
           <section>
             <div className="mt-10 dark:text-white">

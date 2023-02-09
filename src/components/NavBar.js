@@ -14,9 +14,9 @@ export default function NavBar({ darkMode, setDarkMode }) {
                 >
                     {darkMode ? <BsSun /> : <BsFillMoonStarsFill />}
                 </button>
-                <Link href='/'
-                    className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8'>
-                    Resume
+                <Link href='https://download1591.mediafire.com/1inz254jyfsg/agay00nm6yhl9w5/CV-EN-Jonathan_Andueza.pdf'
+                    className='bg-gradient-to-r from-pink-300 to-pink-200 text-white px-4 py-2 rounded-md ml-8'>
+                    Download CV
                 </Link>
             </div>
         </nav>
